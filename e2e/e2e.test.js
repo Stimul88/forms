@@ -37,9 +37,7 @@ describe('Credit Card Validator form', () => {
     await page.goto(baseUrl);
   });
 
-  test('should add do something', async () => {
-
-    await page.waitFor('.btn')
+  test('click test', async () => {
 
     const btn = await page.$(".btn");
 
